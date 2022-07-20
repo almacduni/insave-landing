@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URI:}
+
+polygon:
+  api_key: ${POLYGON_API_KEY:uT59qL0Oa4ldW4knqKxjvKnNsh4PN40p}
+
+coinmarketcap:
+  api_key: ${COINMARKETCAP_API_KEY:742fbe9d-5903-4828-86b5-b63660ce6f96}
